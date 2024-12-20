@@ -769,8 +769,8 @@ textarea {
 
   align-items: center;
   border-radius: 50px;
-  /* min-width: 100%; */
-  min-width: 1175px;
+  min-width: 100%;
+  /* min-width: 1175px; */
   box-sizing: border-box;
 
   background-color: transparent;
@@ -832,7 +832,7 @@ textarea {
 
 @media (max-width: 768px) {
   .projects-container {
-    max-width: 500px;
+    max-width: auto;
   }
 
   .project {
@@ -842,7 +842,7 @@ textarea {
 
   .project img {
     margin: 0 0 20px 0;
-    max-width: 250px;
+    max-width: 70%;
     height: auto;
     border-radius: 20px;
   }
