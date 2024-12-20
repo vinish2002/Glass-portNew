@@ -545,6 +545,7 @@ textarea {
   padding: 0.5rem;
   border-radius: 0 10px 10px 0;
   border: 1px solid #000;
+  border-left: none;
 }
 
 @media only screen and (max-width: 56.25em) and (max-width: 37.5em) {
