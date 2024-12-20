@@ -486,10 +486,6 @@ textarea {
 /*****************************************Hero Section*****************************************/
 .home-hero {
   color: #fff;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-position: center;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
