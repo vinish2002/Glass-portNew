@@ -492,7 +492,7 @@ textarea {
   position: relative;
 }
 
-@media only screen and (max-width: 37.5em) {
+@media only screen and (max-width: 56.25em) and (max-width: 37.5em) {
   .home-hero {
     height: unset;
     min-height: 100%;
@@ -515,7 +515,8 @@ textarea {
 
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
-    padding: 19rem 0 13rem 0;
+    padding: 19rem 0 11rem 0;
+    top: 30%;
     margin: auto;
     position: static;
     transform: translate(0, 0);
@@ -565,7 +566,7 @@ textarea {
     border-radius: 40%;
     text-decoration: none;
     transition: color 0.15s ease-in;
-    /* box-shadow: rgba(255, 255, 255, 0.403) -5px 0px 29px 5px; */
+    box-shadow: rgba(255, 255, 255, 0.238) -5px 0px 29px 5px;
   }
 }
 
