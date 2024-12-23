@@ -64,7 +64,7 @@ body {
   color: black;
   background-color: rgba(186, 179, 255, 0.102);
   /* box-shadow: 0 0px 10px rgba(118, 118, 118, 0.8); */
-  border: 0.5px solid #ffffff8d;
+  /* border: 0.5px solid #ffffff8d; */
 
   opacity: 0;
   transform: translateY(50px) scale(0.8);
@@ -91,7 +91,7 @@ body {
   margin: 1rem 2.5% 0 2.5%;
   z-index: 1000;
 
-  border: 0.5px solid #ffffff8d;
+  /* border: 0.5px solid #ffffff8d; */
   border-radius: 20px;
 
   background-color: rgba(187, 179, 255, 0.268);
