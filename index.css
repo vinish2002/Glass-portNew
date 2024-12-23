@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+
 * {
   margin: 0;
   padding: 0;
@@ -58,13 +60,10 @@ body {
 .section {
 
   margin: 20px 0;
-  /* padding: 10px; */
   border-radius: 10px;
 
   color: black;
   background-color: rgba(186, 179, 255, 0.102);
-  /* box-shadow: 0 0px 10px rgba(118, 118, 118, 0.8); */
-  /* border: 0.5px solid #ffffff8d; */
 
   opacity: 0;
   transform: translateY(50px) scale(0.8);
@@ -163,13 +162,21 @@ body {
 }
 
 @media only screen and (max-width: 56.25em) {
+
+  .header__logo-sub {
+    display: none;
+  }
+
   .header__logo-sub-short {
-    font-size: 1.8rem;
+    display: block;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 1px;
+    font-family: "Audiowide", sans-serif;
   }
 }
+
 
 .header__links {
   display: flex;
@@ -310,9 +317,25 @@ textarea {
   font-weight: 800;
 }
 
-@media only screen and (max-width: 37.5em) {
+.heading-primary-short {
+  display: none;
+}
+
+/* @media only screen and (max-width: 37.5em) { */
+@media only screen and (max-width: 56.25em) {
   .heading-primary {
-    font-size: 3.5rem;
+    display: none;
+  }
+
+  .heading-primary-short {
+    display: block;
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #e9e8e8;
+    font-weight: 800;
+    font-family: "Audiowide", sans-serif;
   }
 }
 
@@ -462,6 +485,7 @@ textarea {
 }
 
 .text-primary {
+  padding: 0 10px;
   color: #ccc;
   font-size: 2.2rem;
   text-align: center;
@@ -545,7 +569,7 @@ textarea {
   box-shadow: rgba(255, 255, 255, 0.403) 0px 7px 29px 0px;
   padding: 0.5rem;
   border-radius: 0 10px 10px 0;
-  border: 1px solid #000;
+  border: 1px solid #696969;
   border-left: none;
 }
 
