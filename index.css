@@ -61,8 +61,9 @@ body {
 
   margin: 20px 0;
   border-radius: 10px;
+  border: 1px solid rgba(144, 144, 144, 0.475);
 
-  color: black;
+  color: rgb(0, 0, 0);
   background-color: rgba(186, 179, 255, 0.102);
 
   opacity: 0;
@@ -857,7 +858,9 @@ textarea {
   right: 10px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
+
+@media only screen and (max-width: 56.25em) {
   .projects-container {
     max-width: auto;
   }
