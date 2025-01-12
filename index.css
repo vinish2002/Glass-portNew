@@ -1211,9 +1211,7 @@ textarea {
 
 /*****************************************Footer Section*****************************************/
 .main-footer {
-  background: linear-gradient(to right,
-      rgba(0, 0, 0, 0.542),
-      rgba(0, 0, 0, 0.526));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.542), rgba(0, 0, 0, 0.526));
   color: #fff;
 }
 
