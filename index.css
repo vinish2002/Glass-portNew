@@ -91,7 +91,6 @@ body {
   margin: 1rem 2.5% 0 2.5%;
   z-index: 1000;
   border-radius: 20px;
-
   background-color: rgba(187, 179, 255, 0.268);
   backdrop-filter: blur(10px);
   z-index: 10;
