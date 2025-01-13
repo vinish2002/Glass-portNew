@@ -105,7 +105,7 @@ document.addEventListener('scroll', function() {
           
           
 //------------------------------------------------------------------
-//
+//----------------------
 // const typedElement = document.querySelector(".typed");
           
 // if (typedElement) {
