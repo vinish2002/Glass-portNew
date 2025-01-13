@@ -42,7 +42,7 @@ headerLogoConatiner.addEventListener('click', () => {
 
 
 //-----------------------------------------------------------------
-//----------------------Project Scroll----
+//----------------------Project Scroll----------------------
 
 const projectsWrapper = document.querySelector('.projects-wrapper');
 const projects = document.querySelectorAll('.project');
